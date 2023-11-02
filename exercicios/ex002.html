@@ -7,8 +7,25 @@
 </head>
 <body>
     <script>
-        var nome = window.prompt("Qual é seu nome?")
-        window.alert("É um grande prazer em te conhecer, " + nome)
+        var nome = window.prompt("Digite seu nome: ")
+        var idade = window.prompt("Digite sua idade: ")
+        var nota1 = Number(window.prompt("Digite a sua primeira nota: "))
+        var nota2 = Number(window.prompt("Digite sua segunda nota: "))
+        var notaTotal = nota1 + nota2
+
+        window.alert(`O aluno ${nome} com ${idade} anos tirou a nota ${notaTotal}`)
+
+        /* 
+        (number + number) para adição
+        (string + string) para concatenação
+        
+        Number.parseInt(n)
+        Number.parseFloat(n)
+        Number(n)
+
+        String(n)
+        n.toString() 
+        */
     </script>
 </body>
 </html>
