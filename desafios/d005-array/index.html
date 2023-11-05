@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -16,15 +15,18 @@
             Número [1 - 100]:
             <input type="number" name="fnum" id="fnum">
             <input type="button" value="Adicionar" onclick="adicionar()">
-            <br><br><select name="flista" id="flista" size="10"></select>
-            <br><input type="button" value="Finalizar">
+            <div>
+                <br><br><select name="flista" id="flista" size="10"></select>
+                <br><input type="button" value="Finalizar" onclick="finalizar()">
+            </div>
         </div>
         <div id="res">
-
+            
         </div>
     </section>
     <footer>
         <p>&copy; CursoemVídeo</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
